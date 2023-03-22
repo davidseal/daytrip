@@ -52,6 +52,11 @@
   90%      { background-color: hsl(144, 85%, 90%); }
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .daytrip-img {
   width: 150px;
   height: 150px;
@@ -62,7 +67,7 @@
 }
 
 .bio-p {
-  width: 370px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
