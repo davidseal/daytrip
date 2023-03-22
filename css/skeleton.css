@@ -504,7 +504,7 @@ there.
   }
 
   .bio-p {
-    width: 365px;
+    width: auto;
   }
   
   body {
