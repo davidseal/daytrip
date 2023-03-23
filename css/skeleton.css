@@ -48,7 +48,7 @@
 
 
 
-@keyframes animateBackgroundColor {
+@keyframes gradient {
   from, to { background-color: hsl(180, 85%, 90%); }
   10%      { background-color: hsl(216, 85%, 90%); }
   20%      { background-color: hsl(252, 85%, 91%); }
