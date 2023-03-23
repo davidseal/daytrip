@@ -514,24 +514,20 @@ there.
 /* Larger than phablet (also point when grid becomes active) */
 @media only screen and (max-width: 550p) and (min-width: 1px)  {
   h1 {
-    font-size: 6em;
+    font-size: 3em;
   }
   
   .bio-p {
     width: auto;
-    font-size: 2em;
+    font-size: 1.2em;
   }
 
-  .avatar-img {
+  .daytrip-img {
     width: 80px;
     height: 80px;
     margin-right: 10px;
   }
   
-  /* body {
-    font-size: 1.8em; /* currently ems cause chrome bug misinterpreting rems on body element */
-    line-height: 1.8;
-  } */
 }
 
 /* Larger than tablet */
