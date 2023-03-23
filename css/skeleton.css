@@ -107,11 +107,10 @@ ul.social-list > li {
   padding: 0px 0px;
   font-size: 1.5rem;
 }
- ul.social-list > li:hover {
-  opacity: 50%;
-}
 ul.social-list > li > a {
   text-decoration: none;
+  color: white;
+  opacity: 80%;
 }
 
 /* Grid
@@ -252,9 +251,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #ed306e; }
+  color: white; }
 a:hover {
-  color: #dd346c; }
+  color: white; }
 
 
 /* Buttons
