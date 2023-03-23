@@ -512,7 +512,7 @@ there.
 } */
 
 /* Larger than phablet (also point when grid becomes active) */
-@media screen and (max-width: 580px) {
+@media (min-width: 1px) {
   h1 {
     font-size: 3em;
   }
