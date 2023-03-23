@@ -245,7 +245,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 } */
 
 p {
-  margin-top: 0; }
+  margin-top: 0; 
+}
 
 
 /* Links
@@ -513,13 +514,19 @@ there.
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (max-width: 550px) {
+  h1 {
+    font-size: 6em;
+  }
+  
   .bio-p {
     width: auto;
+    font-size: 2em;
   }
 
   .avatar-img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
   }
   
   body {
