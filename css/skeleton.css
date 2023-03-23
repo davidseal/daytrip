@@ -515,6 +515,7 @@ there.
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 1px) {
   h1 {
+    margin: 0px;
     font-size: 3em;
   }
   
