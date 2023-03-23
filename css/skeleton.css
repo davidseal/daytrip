@@ -235,14 +235,14 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Larger than phablet */
-@media (min-width: 550px) {
+/* @media (min-width: 550px) {
   h1 { font-size: 12.0rem; }
   h2 { font-size: 4.2rem; }
   h3 { font-size: 3.6rem; }
   h4 { font-size: 3.0rem; }
   h5 { font-size: 2.4rem; }
   h6 { font-size: 1.5rem; }
-}
+} */
 
 p {
   margin-top: 0; }
@@ -496,7 +496,23 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 1px) {
+/* @media (min-width: 1px) {
+  .bio-p {
+    width: auto;
+  }
+
+  ul.social-list > li { 
+    padding: 0px 0px;
+  }
+  
+  body {
+    font-size: 1.7em;
+    line-height: 1.7;
+  }
+} */
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (max-width: 550px) {
   .bio-p {
     width: auto;
   }
@@ -504,22 +520,6 @@ there.
   .avatar-img {
     width: 100px;
     height: 100px;
-  }
-  
-  ul.social-list > li { 
-    padding: 0px 0px;
-  }
-  
-  body {
-    font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
-    line-height: 1.7;
-  }
-}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
-  .bio-p {
-    width: auto;
   }
   
   body {
@@ -532,12 +532,12 @@ there.
 @media (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .avatar-img {
     width: 150px;
     height: 150px;
   }
-}
+} */
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
