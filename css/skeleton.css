@@ -528,6 +528,9 @@ there.
     margin-right: 10px;
   }
   
+  .social-list {
+    width: 300px;
+  }
 }
 
 /* Larger than tablet */
